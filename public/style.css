@@ -1,0 +1,77 @@
+body {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffb0b0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.select-catagory {
+  display: flex;
+}
+
+#any-catagory {
+  margin-right: 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: #ffe4b5;
+  padding: 60px;
+  height: 130px;
+}
+
+#submit {
+  font-size: 1rem;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    font-size: 17px;
+  }
+
+  .preference-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .select-catagory {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #submit {
+    font-size: 1.5rem;
+  }
+  .result {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+  .result {
+    margin-top: 50px;
+  }
+}
